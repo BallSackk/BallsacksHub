@@ -1,0 +1,9 @@
+while wait() do
+local args = {
+    [1] = workspace.Eggs.Egg7
+}
+
+game:GetService("ReplicatedStorage").EggEvent:FireServer(unpack(args))
+
+
+end
